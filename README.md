@@ -1,4 +1,4 @@
-# CertifyX — Beginner's Project Guide
+# CertifyX 
 
 CertifyX is a certificate collection, management, and verification application. This repository is separated into a **frontend** (the website) and a **backend** (Supabase database, server functions, and tests).
 
