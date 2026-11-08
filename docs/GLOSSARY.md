@@ -1,0 +1,31 @@
+# Beginner glossary
+
+- **Frontend:** The part of an application that runs in a user's browser.
+- **Backend:** Server-side code and services that handle trusted operations and data.
+- **API:** A defined way for one program to request data or actions from another.
+- **HTTP request/response:** The message sent to a server and the result returned by it.
+- **JSON:** A text format commonly used to send structured data between frontend and backend.
+- **Supabase:** A platform providing PostgreSQL, authentication, APIs, storage-related services, and Edge Functions.
+- **PostgreSQL:** The relational database used to store structured application records.
+- **SQL:** The language used to define and query relational databases.
+- **Row Level Security (RLS):** Database policies that determine which rows a role/user may access.
+- **Edge Function:** Server-side code deployed and executed by Supabase in response to HTTP requests or configured triggers.
+- **Deno:** The JavaScript/TypeScript runtime used by Supabase Edge Functions.
+- **Node.js:** A JavaScript runtime used by the project's test tooling.
+- **OAuth:** A protocol that lets a user grant an application limited access to a provider account without sharing their password with the application.
+- **Access token:** A credential used to access an API for a limited time.
+- **Refresh token:** A sensitive credential used to obtain new access tokens; it must be protected.
+- **Service-role key:** A highly privileged Supabase key. It must stay on the server and never be exposed in browser code.
+- **Anon/public key:** A public project API key intended for browser use when paired with correctly configured RLS.
+- **Environment secret:** A private configuration value provided to server code at runtime.
+- **CORS:** Browser security rules that control which origins may make cross-origin requests.
+- **PWA:** Progressive Web App; a website that can provide install-like behavior using a manifest and service worker.
+- **Service worker:** A browser script that can intercept requests and manage caching/offline behavior.
+- **Vercel:** A hosting platform used here to serve the static frontend.
+- **Google Drive API:** An API used by the backend to manage files/folders in Drive.
+- **Google Sheets API:** An API used by the backend to read/write spreadsheet data.
+- **Unit test:** A test of a small piece of logic in isolation.
+- **Mock:** A fake dependency used by a test instead of calling a real external service.
+- **Integration test:** A test that checks multiple real components working together.
+- **End-to-end (E2E) test:** A test that exercises a complete user workflow through the application.
+- **Staging:** A non-production environment used to test changes safely before release.
